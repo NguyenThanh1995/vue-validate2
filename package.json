@@ -1,9 +1,9 @@
 {
-  "name": "vue-validate",
+  "name": "vue-validate2",
   "version": "0.0.1",
   "description": "A plugin check validate value for vuejs",
   "main": "src/index.js",
-  "repository": "https://github.com/nguyenthanh1995/vue-validate",
+  "repository": "https://github.com/nguyenthanh1995/vue-validate2",
   "author": "Nguyen Thanh",
   "license": "MIT",
   "scripts": {
