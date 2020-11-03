@@ -131,11 +131,11 @@ function updateReactive(Vue, el, { valid, invalid }) {
    valid = el.has("valid-class") ? el.getAttribute("valid-class") : valid 
    
    if ( store[el.__conf_vue_validate.arg][el.__conf_vue_validate.name].error ) {
-      el.classList.remove(invalid)
-      el.classList.add(valid)
-   } else {
       el.classList.remove(valid)
-      el.classList.add(invalid)
+      el.classList.add(invalid) 
+   } else {
+      el.classList.remove(invalid)
+      el.classList.add(valid) 
    }
 }
 
