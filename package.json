@@ -1,0 +1,39 @@
+{
+  "name": "vue-validate",
+  "version": "0.0.1",
+  "description": "A plugin check validate value for vuejs",
+  "main": "src/index.js",
+  "repository": "https://github.com/nguyenthanh1995/vue-validate",
+  "author": "Nguyen Thanh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-module"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "devDependencies": {
+			 "@babel/core": "^7.0.0-rc.1", 
+			 "@babel/preset-env": "^7.0.0-rc.1",
+			 "@babel/register": "^7.0.0-rc.1",  
+			 "babel": "^6.23.0",     
+			 "babel-loader": "^8.1.0",     
+			 "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",     
+			 "uglifyjs-webpack-plugin": "^2.2.0",
+			 "webpack": "^4.44.2",    
+			 "webpack-cli": "^3.3.12"        
+  }
+}
